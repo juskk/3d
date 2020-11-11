@@ -1,0 +1,225 @@
+$darkblue: rgb(14, 116, 165)
+$lightblue: rgb(79, 181, 245)
+$mainorange: rgb(247, 168, 4)
+
+a, p, h1, h2, h3, h4, h5, h6 
+    font-family: 'Open Sans', sans-serif
+
+.container
+    max-width: 1180px
+    margin-left: auto
+    margin-right: auto
+    padding: 0 0
+
+
+
+/*heade up DOWN ---------------------*/
+.header-up
+    background-color: $darkblue
+
+    .header-up__inside
+        padding: 15px 0
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        transition: .5s
+
+    
+        .header-up__left
+
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: center
+            transition: .5s
+            
+
+            i 
+                color: $mainorange
+
+            .header-up__line
+                content: ''
+                display: block
+                width: .1px
+                height: 22px
+                background-color: #eeeeee
+                margin: 0 15px
+
+            a 
+                color: white
+                text-decoration: none
+                text-transform: uppercase
+                font-size: 11px
+                font-family: 'Open Sans', sans-serif
+        
+        .header-up__right
+
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: center
+            transition: .5s
+
+            i, p
+                color: white
+                
+
+            i
+                margin-right: 10px
+
+            p
+                font-size: 11px
+                font-family: 'Open Sans', sans-serif
+
+            .header-up__line
+                content: ''
+                display: block
+                width: .1px
+                height: 22px
+                background-color: #eeeeee
+                margin: 0 15px
+    
+    @media screen and (max-width: 978px)
+        .header-up__left
+            padding-left: 50px
+            
+        .header-up__right
+            padding-right: 50px
+            padding-top: 5px
+
+    @media screen and (max-width: 800px)
+        .header-up__inside
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            transition: .5s
+            padding-bottom: 30px
+
+            .header-up__right
+            
+                padding-right: 0
+                
+
+                .header-up__line
+                    content: ''
+                    display: block
+                    width: .1px
+                    height: 14px
+                    background-color: #eeeeee
+                    margin: 0 15px
+
+
+            .header-up__left
+           
+                padding-left: 0
+
+    
+                .header-up__line
+                    content: ''
+                    display: block
+                    width: .1px
+                    height: 14px
+                    background-color: #eeeeee
+                    margin: 0 15px
+
+       
+/*heade up UP ---------------------*/
+
+
+/*header down DOWN ----------------*/
+.header-down
+
+    .header-down__inside
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        padding: 50px 0
+
+        .header-down__left
+            transition: .5s
+            .header-down__span1
+                color: $darkblue
+                font-size: 60px
+            .header-down__span2
+                color: $mainorange
+                font-size: 35px
+                margin-left: -6px
+        
+        .header-down__right
+            display: flex
+            flex-direction: row
+            transition: .5s
+
+            .header-down__part
+                display: flex
+                flex-direction: row
+                justify-content: center
+                padding-right: 40px
+
+                .header-down__div-img
+                    display: inline-block
+                    border: 1px solid #d8d8d8
+                    width: 60px
+                    height: 60px
+                    border-radius: 50%
+
+                    i
+                        padding-top: 17px
+                        padding-left: 17px
+                        color: #3d3d3d
+
+                .header-down__div-text
+                    display: flex
+                    flex-direction: column
+                    padding-left: 20px
+                    padding-top: 14px
+                        
+
+                    p
+                        
+                        color: #242424
+
+    @media screen and (max-width: 978px)
+        .header-down__left
+            padding-left: 50px
+            
+        .header-down__right
+            padding-right: 50px
+
+    @media screen and (max-width: 800px)
+        .header-down__inside
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            padding-left: 40px
+        
+            .header-down__right
+                padding-top: 20px
+                display: flex
+                flex-direction: column
+
+                .header-down__part
+                    padding-top: 20px
+
+        
+        .header-down__left
+            padding-left: 0
+            
+        .header-down__right
+            padding-right: 0
+
+                        
+                    
+
+
+
+
+/*header down UP ----------------*/
+
+                    
+
+
+            
