@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="./styles/index.min.css" >
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <title>surogou</title>
+    <title>surogou</title>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script  src="./js/bundle.min.js"></script>
 </head>
 <body>
     
     <header class="header">
+
+        <div class="go_up">
+            <a href="#"><i class="fa fa-2x fa-angle-up , go_up_i"></i></a>
+        </div>
+
 
         <section class="header-up">
             <div class="container">
@@ -41,8 +48,7 @@
             </div>
         </section>
 
-
-
+<!-- ################################################################################################ -->
 
         <section class="header-down">
             <div class="container">
@@ -80,8 +86,485 @@
                 </div>
             </div>
         </section>
+
+<!-- ################################################################################################ -->
+
+        <section class="header-menu">
+            <div class="container">
+                <div class="header-menu__inside">
+
+                    
+                        <a class="menu_link1" href="">home</a>
+
+
+
+                        <div class="menu_div-link2">
+                            <a class="menu_link2" href="">
+                                <span style="transition: 1.3s"><i class="fa fa-angle-down"></i></span>
+                                <span style="transition: .3s">pages</span>
+                            </a>
+
+                            <div class="menu_hover-links2">
+                                <a class="links2_item" href="">Gallery</a>
+                                <a class="links2_item" href="">Full Width</a>
+                                <a class="links2_item" href="">Sidebar Left</a>
+                                <a class="links2_item" href="">Sidebar Right</a>
+                                <a class="links2_item" href="">Basic Grid</a>
+                                <a class="links2_item" href="">Font Icons</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="menu_div-link3">
+                            <a class="menu_link3" href="">
+                                <span style="transition: 1.3s"><i class="fa fa-angle-down"></i></span>
+                                <span style="transition: .3s">dropdown</span>
+                            </a>
+
+                            <div class="menu_hover-links3">
+                                <a class="links3_item" href="">Level 2</a>
+
+
+                                <div class="menu_level2-3">
+                                    <a  class="links3_item" href="">
+                                        <span style="transition: 1.3s; margin-left: -14px"><i class="fa fa-angle-down"></i></span>
+                                        <span style="transition: .3s; ">Level 2 + drop</span>
+                                    </a>
+
+                                    <div class="menu_level3">
+                                        <a class="level3_item" href="">Level3</a>
+                                        <a class="level3_item" href="">Level3</a>
+                                        <a class="level3_item" href="">Level3</a>
+                                    </div>
+                                </div>
+
+
+                                <a class="links3_item" href="">Level 2</a>
+                            </div>
+
+                        </div>
+
+                        <a class="menu_link4" href="">link text</a>
+                        <a class="menu_link4" href="">link text</a>
+                        <a class="menu_link4" href="">link text</a>
+                        <a class="menu_link4" href="">long link text</a>
+
+
+                    
+
+                </div>
+
+<!-- ################################################################################################ -->
+
+                <div class="header-menu__media">
+
+                    <a  onclick="myFunction()" class="dropbtn menu_media_button" href="#" >
+                        <span style="margin-left: 10px" class="menu_button_span1">MENU</span>
+                        <span  class="menu_button_span2"> <i class="fa fa-angle-down"></i> </span>
+                    </a>
+                    
+                    <div class="menu_media_links">
+                        <a style="background-color: rgb(79, 181, 245)" class="menu_media_link-item" href="">Menu</a>
+                        <a class="menu_media_link-item" href="">Home</a>
+                        <a class="menu_media_link-item" href="">Pages</a>
+                        <a class="menu_media_link-item" href="">- - Gallery</a>
+                        <a class="menu_media_link-item" href="">- - Full Width</a>
+                        <a class="menu_media_link-item" href="">- - Sidebar Left</a>
+                        <a class="menu_media_link-item" href="">- - Sidebar Right</a>
+                        <a class="menu_media_link-item" href="">- - Basic Grid</a>
+                        <a class="menu_media_link-item" href="">- - Font Icons</a>
+                        <a class="menu_media_link-item" href="">Dropdown</a>
+                        <a class="menu_media_link-item" href="">- - Level 2</a>
+                        <a class="menu_media_link-item" href="">- - Level 2 + Drop</a>
+                        <a class="menu_media_link-item" href="">- - - Level 3</a>
+                        <a class="menu_media_link-item" href="">- - - Level 3</a>
+                        <a class="menu_media_link-item" href="">- - - Level 3</a>
+                        <a class="menu_media_link-item" href="">- - Level 2</a>
+                        <a class="menu_media_link-item" href="">Link Text</a>
+                        <a class="menu_media_link-item" href="">Link Text</a>
+                        <a class="menu_media_link-item" href="">Link Text</a>
+                        <a class="menu_media_link-item" href="">Long Link Text</a>
+                        
+                    </div>
+
+                    
+
+
+                    
+
+                </div>
+
+
+
+            </div>
+        </section>
         
     </header>
+
+
+        <section class="intro ">
+            <div class="container">
+                <div class="intro-inside">
+
+                    <p class="intro_text1">AENEAN AC NISL VITAE LOBORTIS</p>
+                    <p class="intro_text2">Ultricies Fusce Sed Ligula</p>
+                    <p class="intro_text3">Sem suscipit mollis praesent volutpat placerat nisl suspendisse</p>
+                    <div class="intro_button_hover">
+                        <a href="" class="intro_button">Potenti nunc nec urna</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-inside">
+                    <div class="gallery-text">
+                        <p class="gallery-text_item1">Quis Est Gravida Facilisis</p>
+                        <p class="gallery-text_item2">Mauris tempor aenean pretium sem et luctus semper justo velit</p>
+                    </div>
+
+
+
+                    <div class="gallery-photos">
+                        <div class="gallery-photos_line">
+                            <div class="gallery-photos_line__item">
+                                <div class="gallery__item_img">
+                                    <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                </div>
+                                <div class="gallery__item_text">
+                                    <p class="gallery__item_text_main">Dapibus Pede Tristique</p>
+                                    <p class="gallery__item_text_not-main" style="display: flex; flex-direction: column;">
+                                      <span>  Congue quam erat et dui morbi at  </span>
+                                      <span> sapien non enim blandit. </span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="gallery-photos_line__item">
+                                <div class="gallery__item_img">
+                                    <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                </div>
+                                <div class="gallery__item_text">
+                                    <p class="gallery__item_text_main">Dapibus Pede Tristique</p>
+                                    <p class="gallery__item_text_not-main" style="display: flex; flex-direction: column;">
+                                      <span>  Congue quam erat et dui morbi at </span>
+                                      <span> sapien non enim blandit. </span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="gallery-photos_line__item">
+                                <div class="gallery__item_img">
+                                    <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                </div>
+                                <div class="gallery__item_text">
+                                    <p class="gallery__item_text_main">Dapibus Pede Tristique</p>
+                                    <p class="gallery__item_text_not-main" style="display: flex; flex-direction: column;">
+                                      <span>  Congue quam erat et dui morbi at  </span>
+                                      <span> sapien non enim blandit. </span>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-photos_line">
+                            <div class="gallery-photos_line__item">
+                                <div class="gallery__item_img">
+                                    <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                </div>
+                                <div class="gallery__item_text">
+                                    <p class="gallery__item_text_main">Dapibus Pede Tristique</p>
+                                    <p class="gallery__item_text_not-main" style="display: flex; flex-direction: column;">
+                                      <span>  Congue quam erat et dui morbi at  </span>
+                                      <span> sapien non enim blandit. </span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="gallery-photos_line__item">
+                                <div class="gallery__item_img">
+                                    <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                </div>
+                                <div class="gallery__item_text">
+                                    <p class="gallery__item_text_main">Dapibus Pede Tristique</p>
+                                    <p class="gallery__item_text_not-main" style="display: flex; flex-direction: column;">
+                                      <span>  Congue quam erat et dui morbi at  </span>
+                                      <span> sapien non enim blandit. </span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="gallery-photos_line__item">
+                                <div class="gallery__item_img">
+                                    <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                </div>
+                                <div class="gallery__item_text">
+                                    <p class="gallery__item_text_main">Dapibus Pede Tristique</p>
+                                    <p class="gallery__item_text_not-main" style="display: flex; flex-direction: column;">
+                                      <span>  Congue quam erat et dui morbi at  </span>
+                                      <span> sapien non enim blandit. </span>
+                                        </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="description">
+            <div class="container">
+                <div class="description-inside">
+                    <div class="description-text">
+                        <p class="description-text__part1">Vitae Congue At Urna Suspendisse</p>
+                        <p class="description-text__part2">Vestibulum nisi ut lectus proin lectus ante fermentum sed</p>
+                    </div>
+                    <div class="description-icons">
+
+                        <div class="description-icons__item">
+                            
+                            
+                                <a class="description__icon" href="">
+                                    <i class="fa fa-3x fa-eraser"></i>
+                                </a>
+                           
+                            
+                            <div class="description__text">
+                                <p class="description__text-1">Bibendum Rutrum Congue</p>
+                                <p class="description__text-2">
+                                    Tortor proin sagittis mauris ac odio morbi ut massa donec suscipit eros ut justo etiam non orci nullam at tortor maecenas eu.
+                                </p>
+                                
+                            </div>
+                        </div>
+
+
+                        <div class="description-icons__item">
+                            
+                            <a class="description__icon" href="">
+                                <i class="fa fa-3x fa-gift"></i>
+                            </a>
+                            
+                            <div class="description__text">
+                                <p class="description__text-1">Neque Lacinia Ullamcorper</p>
+                                <p class="description__text-2">
+                                    Tortor proin sagittis mauris ac odio morbi ut massa donec suscipit eros ut justo etiam non orci nullam at tortor maecenas eu.
+                                </p>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="description-icons__item">
+                            
+                            <a class="description__icon" href="">
+                                <i class="fa fa-3x fa-envelope"></i>
+                            </a>
+                            
+                            <div class="description__text">
+                                <p class="description__text-1">Accumsan Dignissim Libero</p>
+                                <p class="description__text-2">
+                                    Tortor proin sagittis mauris ac odio morbi ut massa donec suscipit eros ut justo etiam non orci nullam at tortor maecenas eu.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <section class="clients">
+            <div class="container">
+                <div class="clients-inside">
+
+                    <div class="clients-text">
+                        <p class="clients-text__1">Mauris Tincidunt Eu Tincidunt</p>
+                        <p class="clients-text__2">In egestas vitae turpis sed velit urna sollicitudin ut euismod</p>
+                    </div>
+
+                    <div class="clients-info">
+                        <div class="clients-info__item">
+                            <img class="clients__img" src="./images/clients_img.png" alt="">
+                              
+                            <div class="clients__whitebg-block">
+                                <p class="clients__whitebg-block_text">Nec hendrerit vel velit ut sodales feugiat nulla proin porttitor lacus eget mi quisque in eros ut porttitor dapibus enim duis mollis accumsan purus etiam quis lorem hendrerit.</p>
+                            </div>    
+
+
+                            <div class="clients-id">
+                                <p style="font-size: 22px">G. Name</p>
+                                <p style="font-size: 15px">Neque convallis pretium</p>
+                            </div>
+                        </div>
+
+                        <div class="clients-info__item after-width760__margin-top">
+                            <img class="clients__img" src="./images/clients_img.png" alt="">
+                              
+                            <div class="clients__whitebg-block">
+                                <p class="clients__whitebg-block_text">Vestibulum volutpat ut consequat tincidunt tortor nulla enim morbi id ante in felis iaculis faucibus duis nibh diam tristique scelerisque viverra at vulputate quis lacus donec.</p>
+                            </div>    
+
+                            <div class="clients-id">
+                                <p style="font-size: 22px">H. Name</p>
+                                <p style="font-size: 15px">Vestibulum odio vivamus</p>
+                            </div>
+                        </div>
+
+                       
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="abilities">
+            <div class="container">
+                <div class="abilities-inside">
+                    <div class="abilities__text">
+                        <p class="abilities__text_1">Ligula Mi Fringilla Vel Hendrerit</p>
+                        <p class="abilities__text_2">Et malesuada vitae risus in a enim in metus ultrices tristique</p>
+                    </div>
+
+                    <div class="abilities-content">
+                        <div class="abilities_item">
+
+                            <div class="abilities_item-img">
+                                <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                    <div class="abilities_img-text">
+                                        <p class="abilities_img-text-1">06</p>
+                                        <p class="abilities_img-text-2">APR</p>
+                                    </div>
+                            </div>
+
+                            <div class="fffs">
+                            <div class="abilities_item-block">
+                                <p class="ab_item-block__main-text">Integer Aliquet Dignissim Tellus</p>
+
+                                <div class="ab_item-block__info">
+                                    <i class="fa fa-user"></i>
+                                    <p>Admin</p>
+                                    <div class="ab_item-block_line"></div>
+                                    <i class="fa fa-tags"></i>
+                                    <p>Tag 1, Tag 2</p>
+                                </div>
+
+                                <div class="ab_item-block__text">
+                                    <p>Vestibulum consequat praesent bibendum vehicula mi sed fermentum erat sit amet imperdiet dictum enim lectus […]</p>
+                                </div>
+
+                                <div class="ab_item-block__button">
+                                    <a class="ab_item-block__button-a" href="">READ MORE</a>
+                                </div>
+
+                            </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="abilities_item">
+
+                            <div class="abilities_item-img">
+                                <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                    <div class="abilities_img-text">
+                                        <p class="abilities_img-text-1">05</p>
+                                        <p class="abilities_img-text-2">APR</p>
+                                    </div>
+                            </div>
+
+                            <div class="fffs">
+                            <div class="abilities_item-block">
+                                <p class="ab_item-block__main-text">Integer Aliquet Dignissim Tellus</p>
+
+                                <div class="ab_item-block__info">
+                                    <i class="fa fa-user"></i>
+                                    <p>Admin</p>
+                                    <div class="ab_item-block_line"></div>
+                                    <i class="fa fa-tags"></i>
+                                    <p>Tag 1, Tag 2</p>
+                                </div>
+
+                                <div class="ab_item-block__text">
+                                    <p>Vel elit integer in orci vitae lacus ultricies mattis suspendisse congue sapien vel massa posuere lacinia […]</p>
+                                </div>
+
+                                <div class="ab_item-block__button">
+                                    <a class="ab_item-block__button-a" href="">READ MORE</a>
+                                </div>
+
+                            </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="abilities_item">
+
+                            <div class="abilities_item-img">
+                                <a href=""><img src="./images/gallery_img.png" alt=""></a>
+                                    <div class="abilities_img-text">
+                                        <p class="abilities_img-text-1">04</p>
+                                        <p class="abilities_img-text-2">APR</p>
+                                    </div>
+                            </div>
+
+                            <div class="fffs">
+                            <div class="abilities_item-block">
+                                <p class="ab_item-block__main-text">Integer Aliquet Dignissim Tellus</p>
+
+                                <div class="ab_item-block__info">
+                                    <i class="fa fa-user"></i>
+                                    <p>Admin</p>
+                                    <div class="ab_item-block_line"></div>
+                                    <i class="fa fa-tags"></i>
+                                    <p>Tag 1, Tag 2</p>
+                                </div>
+
+                                <div class="ab_item-block__text">
+                                    <p>Fringilla tincidunt proin velit aliquam erat volutpat etiam elementum eros ut ante fusce a lacus ac neque […]</p>
+                                </div>
+
+                                <div class="ab_item-block__button">
+                                    <a class="ab_item-block__button-a" href="">READ MORE</a>
+                                </div>
+
+                            </div>
+                            </div>
+                            
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
 
 </body>
 </html>
