@@ -998,14 +998,16 @@ a, p, h1, h2, h3, h4, h5, h6
             margin-bottom: 90px
             .abilities_item
                 display: flex
-                flex-direction: column
+                flex-direction: column  
                 .abilities_item-img  
-                    display: block
-                    position: static
+                    
+                    
+
+                    
                     
                     img  
                         max-width: 90%
-                        
+                                       
                     .abilities_img-text
                         display: flex
                         flex-direction: column
@@ -1027,14 +1029,12 @@ a, p, h1, h2, h3, h4, h5, h6
                             background-color: #0F1620
                             color: white
                             font-size: 14px
-                
+                 
                 .fffs
-                    
                     
                     max-width: 370px
                     margin-top: -5px
                     .abilities_item-block
-                        
                         max-width: 90%
                         width: 90%
                         background: white
@@ -1099,7 +1099,119 @@ a, p, h1, h2, h3, h4, h5, h6
                         
                         
 
+
+@media screen and (max-width: 1135px)
+    .abilities
+        .abilities-inside
+            .abilities-content
+                .abilities_item
+                    .abilities_item-img
+                        .abilities_img-text
+                            margin-top: -80px
+
+@media screen and (max-width: 850px)
+    .abilities
+        .abilities-inside
+            
+            .abilities-content
+                display: flex
+                flex-direction: column
+                padding-left: -290px
+                margin-left: 30px
+                .abilities_item
+                    margin-bottom: 40px
+                    .abilities_item-img
+                        .abilities_img-text
+                            margin-top: -105px
+
         
 
 
 /*abilities UP*/
+
+
+/*contacts DOWN*/
+
+.contacts
+    background: linear-gradient(to bottom right, #0E74A5, #4FB5F5)
+    .contacts-inside
+        display: flex
+        flex-direction: column
+        align-items: center
+        .contacts__text
+            display: flex
+            flex-direction: column
+            justify-content: center
+            margin-top: 100px
+            margin-bottom: 50px
+            p
+                text-align: center
+                color: #f7f7f7
+                font-size: 18px
+        .contacts__block
+            display: flex
+            flex-direction: row
+            justify-content: center
+            max-width: 100%
+            padding-bottom: 70px
+            
+            .contacts__item
+                display: flex
+                align-items: center
+                margin: 0 25px
+                
+                width: 370px
+                background-color: white
+                i 
+                    display: inline-block
+                    margin: 12px 15px
+                    padding: 16px 20px
+                    border-radius: 50%
+                    border: 1px solid #ebebeb
+                    color: $lightblue
+                .contacts__item-text
+                    display: flex
+                    flex-direction: column
+                    margin-top: 7px
+                    color: #3d3d3d
+                    font-size: 18px
+                    margin: 15px 0
+                    word-wrap: break-word
+                    padding-right: 20px
+                    p
+                        font-size: 17px
+                        .contacts_link
+                            color: $mainorange
+                            text-decoration: none
+
+@media screen and (min-width: 851px) and (max-width: 854px)
+    .contacts
+        .contacts-inside
+            .contacts__text
+            .contacts__block   
+                .contacts__item                
+                    .contacts__item-text
+                        .contacts_media
+                            font-size: 15px
+@media screen and (max-width: 850px)
+    .contacts
+        .contacts-inside
+            .contacts__text
+            .contacts__block   
+                max-width: 100%
+                display: flex
+                flex-direction: column
+                .contacts__item
+                    max-width: 100%
+                    width: 700px
+                    margin: 20px 0
+                    
+                            
+                        
+
+                    
+
+
+
+
+/*contacts UP*/
